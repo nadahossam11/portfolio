@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <body>
+  <style>
+    
+    nav{display:flex;
+        justify-content: space-between;
+        padding: 15px 10px;
+        background-color: rgb(78, 4, 84);
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    
+
+    }
+    nav a{
+        text-decoration:none;
+        color: #ffffff;
+        padding-right: 20px;
+    }
+
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+section{
+    padding: 2rem;
+   max-width:80% ;
+    margin:auto ;
+
+}
+.profile img{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+button{ background-color: rgb(71, 40, 100);
+color: #ffffff;
+border: none;
+padding: 7px 12px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 12px;
+
+}
+.video-container{
+text-align: center;}
+.myvideo {
+    width: 900px;
+    height: auto;
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer{ 
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(129, 48, 150);
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.skills{text-align: center;}
+.work-box img {
+  transition: transform 0.3s ease;
+}
+.work-box img:hover {
+  transform: scale(1.05);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Concert One', cursive;
+}
+
+
+   
+  </style>
+</head>
+
+<body>
+<nav>
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#skills">skills</a>
+<a href="#work">work</a>
+<a href="#contact">contact</a>
+</div>
+<a href="#"class="logo">my portfolio</a></div>
+</nav>
+<section id ="about" class="profile">
+<img src="photo.jpg" width="400" height="450" alt="profile photo">
+<h2>Hi,I am Nada Hossam!</h2>
+<p> I’m 14 years old. I’m currently learning programming through a course . I find it really exciting to understand how websites and apps are built. Even though I’m still a beginner, I enjoy writing code and seeing how a few lines can create something useful or fun. I love the feeling of solving problems and figuring things out step by step. I hope to become really good at it and maybe build something big in the future.
+</p>
+<a href="#work"><button><i class="fa-solid fa-envelope"></i>See My Work</button></a>
+</section>
+<section class="video-container">
+    <h2>Introduction Video</h2>
+      
+    <video class="myvideo" controls autoplay loop>
+        <source src="myvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+<section id="skills">
+    <h2>My skills</h2>
+    <div class="skills">
+    <div class="skill-box">HTML</div>
+    <div class="skill-box">CSS</div>
+    <div class="skill-box">JavaScript</div>
+    <div class="skill-box">Responsive Design</div>
+</section>
+<section id="work">
+  <h2>My Work</h2>
+  <div class="work-box" style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+    
+    <div style="text-align: center;">
+      <img src="work.jpg" alt="project 1" style="width: 200px; border-radius: 1pc;">
+      <p>October 2024</p>
+    </div>
+    
+    <div style="text-align: center;">
+      <img src="work.jpg" alt="project 2" style="width: 200px; border-radius: 1pc;">
+      <p>June 2025</p>
+    </div>
+
+  </div>
+</section>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email:hnada1587@gmail.com</p>
+</section>
+  <footer>
+    <p>&copy;2025 My Portfolio</p>
+    <p>Follow Me On
+<a href="https://www.facebook.com/share/1Bz6Tq3KXk/" target="_blank">Facebook</a>
+<a href="https://www.instagram.com/nadaahossam22?igsh=MXB0cXRqMjNhd294OA==" target="_blank">Instagram</a>
+<a href="https://x.com/NadaHos13589659?t=pt0PCEpCqtIlRTZKHVQMkw&s=09" target="_blank">Twitter</a>
+    </p>
+  </footer>
+</body>
+
+</html>
